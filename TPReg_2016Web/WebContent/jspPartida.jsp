@@ -37,7 +37,12 @@
 
 	<div></div>
 	<div>	
-	<input  name="ataque" type= "text" value=""><input type="submit"  value="Atacar"  id="ataca" name="evento_ataca" /> <input type="button" value="Defender" id="defiende" name="evento_defiende" />
+	<input  name="ataque" type= "text" value="">
+	<button type="submit"  value="Atacar"  name="btnAtaca">Atacar</button> 
+	<button type="submit" value="Defender" name="btnDefiende">Defender</button>
+	
+	
+	
 	</div>
 </form>
 </body>

@@ -3,7 +3,6 @@ package entities;
 import utils.ApplicationException;
 import java.util.Random;
 
-import javax.swing.JOptionPane;
 
 public class Personaje {
 
@@ -123,9 +122,7 @@ public class Personaje {
 	}
 	
 	public void recibirAtaque(int ataque){
-		if(evade()){
-			JOptionPane.showMessageDialog(null, nombre +" ha evadido el ataque !");
-		} else{
+		if(!evade()){
 			danio+=ataque;
 		}
 	}
